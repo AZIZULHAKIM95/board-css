@@ -1,19 +1,21 @@
 .players{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    grid-row-gap: 30px;
 }
-.player img{
+.player img {
     width: 56px;
     height: 56px;
 }
 .name{
     margin-left: 15px;
+    font-size: 18px;
 }
 .player{
     display: flex;
     align-items: center;
 }
-/* common contain  */
+
 body{
     font-family: 'Poppins', sans-serif;
     background-color: lightgrey;
@@ -30,4 +32,36 @@ main{
 h2{
     color: blue;
     font-size: 25px;
+}
+hr{
+    border: 1px solid green;
+}
+.top-players{
+    margin-bottom: 30px;
+}
+.blogs{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row-gap: 30px;
+}
+.blog img{
+    width: 150px;
+    height: 90px;
+}
+.blog{
+    display: flex;
+    align-items: center;
+}
+.blog-topic{
+    margin-left: 15px;
+    font-size: 12px;
+}
+.blog-p{
+    margin-left: 15px; 
+    font-size: 10px;
+    
+}
+.blog-p a{
+    text-decoration: none;
+    font-size: 15px;
 }
